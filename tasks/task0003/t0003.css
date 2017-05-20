@@ -1,0 +1,82 @@
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+a,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
+#v1 {
+  position: relative;
+  border: 1px solid #999;
+  background: #eee;
+  min-height: 500px;
+}
+#v1 #logo-team {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 200px;
+  padding: 4px;
+  border: 1px solid #000;
+}
+#v1 #logo-team a {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: url(../images/3.jpg) no-repeat;
+  overflow: hidden;
+  text-indent: 90px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#v1 #logo-team div {
+  float: right;
+  width: 100px;
+}
+#v1 #intro-team {
+  margin: 20px 150px 20px 230px;
+  border: 1px solid #000;
+}
+#v1 #intro-self {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+  border: 1px solid #000;
+}
+#v1 #intro-self ul {
+  width: 80px;
+  margin: 20px auto;
+}
+#v1 #intro-self ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+#v1 #intro-self ul li a {
+  display: block;
+}
+#v1 #intro-self ul li a img {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
