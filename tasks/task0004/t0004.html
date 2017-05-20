@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task0004：定位和居中问题</title>
+    <style>
+        div{
+            box-sizing:border-box;
+        }
+        html,body{
+            height:100%;
+        }
+        .wrapper{
+            height:70%;
+        }
+        .wrapper{
+            border:1px solid #000;
+        }
+        #box{
+            position:relative;
+            width:400px;
+            height:200px;
+            margin:0 auto;
+            background:#ccc;
+            overflow:hidden;
+        }
+        .extra{
+            height:50%;
+            margin-bottom:-100px;
+        }
+        .circle{
+            display:inline-block;
+            vertical-align:middle;
+            width:100px;
+            height:100px;
+            border:1px solid transparent;
+            border-radius:50%;
+            position:absolute;
+            background:#fc0;
+        }
+        .circle:first-child{
+            top:-50px;
+            left:-50px;
+        }
+        .circle:last-child{
+            right:-50px;
+            bottom:-50px;
+        }
+    </style>
+</head>
+<body>
+<h1>Task0004：定位和居中问题</h1>
+<p>灰色元素水平垂直居中，有两个四分之一圆位于其左上角和右下角。</p>
+<p>注意测试不同情况，尤其是极端情况下的效果。
+    调节浏览器宽度，灰色元素始终水平居中。
+    调节浏览器高度，灰色元素始终垂直居中。
+    调节浏览器高度和宽度，黄色扇形的定位始终准确。
+</p>
+<br>
+<br>
+<br>
+<div class="wrapper">
+    <div class="extra"></div>
+    <div id="box">
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+</div>
+<a href="images/task0004_1.jpg" target="_blank">查看原效果图</a>
+</body>
+</html>
