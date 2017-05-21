@@ -1,0 +1,239 @@
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+a,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+.wrapper {
+  width: 892px;
+  margin: 0 auto;
+}
+#header {
+  height: 61px;
+}
+#header div {
+  position: relative;
+  width: 110px;
+  height: 100%;
+  background: #f00;
+}
+#header div a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-indent: 1em;
+  color: #fff;
+  font: 12px 'Microsoft Yahei';
+}
+#main {
+  padding: 40px 0 60px 0;
+  margin-bottom: 20px;
+  border: 2px solid #938e8c;
+  border-left: none;
+  border-right: none;
+}
+#main .title .title_pic {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  width: 641px;
+  height: 301px;
+}
+#main .title .title_pic img {
+  width: 641px;
+  height: 301px;
+}
+#main .title .title_pic .mask {
+  position: absolute;
+  width: 151px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+#main .title .title_pic .mask:first-of-type {
+  left: 0;
+  top: 0;
+}
+#main .title .title_pic .mask:last-child {
+  right: 0;
+  top: 0;
+}
+#main .title .title_desc {
+  overflow: hidden;
+  height: 301px;
+  border-top: 2px solid #cc8091;
+  font-family: 'Microsoft YaHei';
+}
+#main .title .title_desc h1 {
+  line-height: 40px;
+}
+#main .title .title_desc h1 a {
+  font-size: 24px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+#main .title .title_desc h1 a span {
+  font-variant: small-caps;
+}
+#main .title .title_desc > p {
+  line-height: 12px;
+  font: 12px KaiTi;
+}
+#main .title .title_desc div p {
+  position: relative;
+  margin: -13px auto;
+  color: #cc8091;
+  font-size: 21px;
+}
+#main .title .title_desc div p > span:first-child {
+  font-size: 55px;
+}
+#main .title .title_desc div p > span:last-child {
+  position: absolute;
+  bottom: 12px;
+  margin-left: 4px;
+  line-height: 14px;
+}
+#main .title .title_desc div p > span:last-child b {
+  color: #5a5b5b;
+  font-size: 12px;
+}
+#main .title .title_desc div p:first-child {
+  color: #0d0;
+  font-size: 116px;
+}
+#main .topic {
+  overflow: hidden;
+  margin: 30px auto;
+}
+#main .topic .top_item {
+  float: left;
+  margin-right: 40px;
+  width: 220px;
+  word-break: break-all;
+}
+#main .topic .top_item h3 a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #d2994f;
+}
+#main .topic .top_item h3 a:hover {
+  text-decoration: underline;
+  color: #cc7680;
+}
+#main .topic .top_item p {
+  line-height: 16px;
+  color: #231816;
+  font-size: 12px;
+}
+#main .content {
+  position: relative;
+}
+#main .content .column1 {
+  margin-right: 478px;
+}
+#main .content .column1 h2 {
+  text-transform: uppercase;
+  line-height: 16px;
+  font: 42px SimHei;
+}
+#main .content .column1 h2 span {
+  color: #f5e327;
+  font-style: italic;
+  font-size: 72px;
+}
+#main .content .column1 p {
+  word-break: break-all;
+}
+#main .content .column1 p:first-of-type:first-letter {
+  float: left;
+  color: #f5e327;
+  line-height: 80px;
+  font-size: 70px;
+}
+#main .content .column1 p:last-of-type {
+  text-indent: 2em;
+}
+#main .content .column1 img {
+  width: 200px;
+  height: 300px;
+  float: right;
+}
+#main .content .column2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 458px;
+  height: 275px;
+}
+#main .content .column2 .column2_title {
+  position: relative;
+  overflow: hidden;
+}
+#main .content .column2 .column2_title img {
+  width: 458px;
+  height: 275px;
+}
+#main .content .column2 .column2_title .mask {
+  position: absolute;
+  top: 213px;
+  transition: all 0.3s ease;
+  padding: 20px;
+  height: 275px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+}
+#main .content .column2 .column2_title .mask h5 {
+  border-left: 3px solid #72b16a;
+  line-height: 26px;
+  text-indent: .5em;
+  font-size: 26px;
+}
+#main .content .column2 .column2_title .mask p {
+  margin-top: 60px;
+}
+#main .content .column2 .column2_title .mask:hover {
+  top: 0;
+}
+#main .content .column2 .column2_directory {
+  margin-top: 20px;
+  padding: 10px;
+  background: #ddd;
+}
+#main .content .column2 .column2_directory ul li {
+  padding: 7px 0;
+  list-style: square inside;
+}
+#main .content .column2 .column2_directory ul li a {
+  color: #5a5b5b;
+}
+#main .content .column2 .column2_directory ul li a:hover {
+  color: #11456b;
+}
