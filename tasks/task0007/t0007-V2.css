@@ -425,10 +425,12 @@ header #nav li {
   margin-right: 10px;
   border-bottom: 4px solid transparent;
   padding: 0 12px 6px 12px;
+  width: 90px;
+  text-align: center;
 }
 header #nav li.active,
 header #nav li:hover {
-  border-bottom: 4px solid #E74E48;
+  border-bottom-color: #E74E48;
 }
 header #nav li a:hover {
   color: #F52C2C;

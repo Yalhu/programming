@@ -155,8 +155,10 @@ a {
 }
 #main .content {
   position: relative;
+  min-height: 570px;
 }
 #main .content .column1 {
+  overflow: hidden;
   margin-right: 478px;
 }
 #main .content .column1 h2 {
@@ -191,7 +193,6 @@ a {
   right: 0;
   top: 0;
   width: 458px;
-  height: 275px;
 }
 #main .content .column2 .column2_title {
   position: relative;
